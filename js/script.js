@@ -1,3 +1,5 @@
+// Enjoy!! 🍓
+
 "use strict";
 var backgrounds = document.querySelectorAll(".background");
 const slider = document.querySelector(".slider-images");
