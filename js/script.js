@@ -33,3 +33,11 @@ function updateSlider() {
     }
     imageIndex = (imageIndex + 1) % images.length;
 }
+updateSlider();
+setInterval(updateSlider, 3500);
+
+images[1].classList.add('next');
+images[2].classList.add('inactive');
+images[3].classList.add('inactive');
+images[4].classList.add('previous');
+images[0].classList.add('active');
